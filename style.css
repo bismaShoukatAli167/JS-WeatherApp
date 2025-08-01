@@ -342,101 +342,7 @@ body {
   
  
 } 
-   /* ///////////////// Media Queries ///////////////// */
- 
-/* ✅ Phones (up to 576px) */
-/* @media screen and (max-width: 576px) {
-  .weather-card {
-    width: 90%;
-    padding: 15px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .hero-profile-img,
-  .hero-logo img,
-  .card-item img,
-  .card-color img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-
-  .hero-description,
-  .hero-date,
-  .card-item h3,
-  .card-color h3 {
-    font-size: 14px;
-    padding: 8px;
-  }
-
-  .hero-date p,
-  .developer {
-    font-size: 12px;
-  }
-
-  .card-item,
-  .card-color {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .card-list {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 10px;
-  }
-
-  .error-container img {
-    width: 100%;
-    height: auto;
-  }
-
-  .welcomeScreen h1 {
-    font-size: 20px;
-  }
-
-  .welcomeScreen p {
-    font-size: 14px;
-  }
-}
-
-/* ✅ Tablets (577px to 768px) */
-/* @media screen and (min-width: 577px) and (max-width: 768px) {
-  .weather-card {
-    width: 80%;
-    padding: 20px;
-  }
-
-  .card-list {
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-
-  .hero-description,
-  .hero-date,
-  .card-item h3,
-  .card-color h3 {
-    font-size: 16px;
-  }
-} */
-
-/* ✅ Medium screens (769px to 991px) */
-/* @media screen and (min-width: 769px) and (max-width: 991px) {
-  .weather-card {
-    width: 70%;
-    padding: 25px;
-  }
-
-  .hero-description p,
-  .card-item h3,
-  .card-color h3 {
-    font-size: 18px;
-  }
-} */
-
+   
 
 /* ✅ Phones (up to 576px) */
 @media screen and (max-width: 576px) {
@@ -542,3 +448,68 @@ body {
 
 
    
+@media screen and (max-width: 576px) {
+  .weather-card {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
+.summer-bg,
+.winter-bg,
+.autumn-bg,
+.spring-bg {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* ✅ Mobile View (up to 576px) */
+@media screen and (max-width: 576px) {
+  .card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .card-item,
+  .card-color {
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-item img,
+  .card-color img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .card-item h3,
+  .card-color h3 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .card-item .developer,
+  .card-color .developer {
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .arrow {
+    margin-top: 8px;
+  }
+
+  .arrow i {
+    font-size: 18px;
+  }
+}
