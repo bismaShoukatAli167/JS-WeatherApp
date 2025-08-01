@@ -132,7 +132,7 @@ body, html {
   border-radius: 20px;
   background-color: #fff;
   position: absolute;
-  bottom: 30%;
+  bottom: 40%;
   left: 30px;
   overflow:hidden;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
@@ -146,8 +146,9 @@ body, html {
   position: absolute;
   color: #fff;
   font-weight: 900;
-  left: 150px;
+  left: 160px;
   bottom: 21%;
+
 }
 
 

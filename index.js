@@ -56,7 +56,7 @@
   <p>🌨️ Snowfall Expected</p>
 </div>
   <div class="hero-description">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>"Welcoming winter with calm winds and cozy moments." </p>
   </div>
  
 
